@@ -1,14 +1,13 @@
 import Navbar from "@/shared/components/Navbar";
 
-const layout = () => {
+export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <nav>
+      <nav className="fixed top-0 left-0 z-50 w-full">
         <Navbar />
       </nav>
-      <main></main>
+
+      <main>{children}</main>
     </>
   );
-};
-
-export default layout;
+}
