@@ -4,6 +4,7 @@
 
 :root {
   --color-blue-50: #2563EB;
+  --color-blue-550: #CAF0F8;
   --color-orange-50: #E34F26;
   --color-yellow-50: #F7DF1E;
 }
@@ -11,6 +12,7 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
+  --color-blue-450: #CAF0F8;
   --color-blue-550: #2563EB;
   --color-orange-550: #E34F26;
   --color-yellow-550: #F7DF1E;
@@ -136,5 +138,11 @@
   }
   html {
     @apply font-sans;
+  }
+}
+
+@layer components {
+  .section {
+    @apply my-20;
   }
 }
