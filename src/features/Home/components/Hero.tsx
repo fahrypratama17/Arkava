@@ -15,7 +15,7 @@ const Hero = () => {
           Jelajahi dunia pengembangan web melalui pembelajaran yang terstruktur,
           praktik langsung, dan proyek yang mencerminkan kebutuhan dunia nyata.
         </p>
-        <button className="bg-blue-550 w-full max-w-60 cursor-pointer rounded-[18px] py-4 text-3xl text-white">
+        <button className="bg-blue-550 w-full max-w-60 cursor-pointer rounded-[18px] py-3 text-2xl text-white">
           Jelajahi Materi
         </button>
       </div>
