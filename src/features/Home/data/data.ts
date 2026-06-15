@@ -10,6 +10,7 @@ export const cardData = [
       "Forms & Input Validation",
     ],
     className: "border-t-orange-550 border-t-4",
+    link: "",
   },
   {
     id: 2,
@@ -22,6 +23,7 @@ export const cardData = [
       "CSS Variables & Animations",
     ],
     className: "border-t-blue-550 border-t-4",
+    link: "",
   },
   {
     id: 3,
@@ -34,5 +36,6 @@ export const cardData = [
       "ES6+ Features & Functional Programming",
     ],
     className: "border-t-yellow-550 border-t-4",
+    link: "",
   },
 ];
