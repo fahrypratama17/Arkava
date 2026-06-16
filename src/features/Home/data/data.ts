@@ -39,3 +39,24 @@ export const cardData = [
     link: "",
   },
 ];
+
+export const jalurData = [
+  {
+    id: 1,
+    icon: "hero-tree.svg",
+    title: "Terstruktur & Rinci",
+    desc: "Setiap materi disusun secara bertahap dan sistematis. Mulai dari dasar HTML, CSS, dan JavaScript hingga konsep yang lebih kompleks, semuanya dirancang agar mudah dipahami dan dipelajari langkah demi langkah.",
+  },
+  {
+    id: 2,
+    icon: "hero-code.svg",
+    title: "Interaktif",
+    desc: "Belajar sambil praktik melalui editor kode interaktif yang memungkinkan setiap konsep langsung dicoba dan dipahami secara nyata.",
+  },
+  {
+    id: 3,
+    icon: "hero-portfolio.svg",
+    title: "Portofolio Nyata",
+    desc: "Bangun proyek yang bermakna, mulai dari landing page sederhana hingga aplikasi web yang kompleks. Setiap proyek dirancang untuk memperkuat pemahaman sekaligus menghasilkan portofolio yang nyata.",
+  },
+];
