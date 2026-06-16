@@ -1,6 +1,7 @@
 import Hero from "@/features/Home/components/Hero";
 import Roadmap from "@/features/Home/components/Roadmap";
 import PilihJalur from "@/features/Home/components/PilihJalur";
+import CTA from "@/features/Home/components/CTA";
 
 const HomeContainer = () => {
   return (
@@ -8,6 +9,7 @@ const HomeContainer = () => {
       <Hero />
       <Roadmap />
       <PilihJalur />
+      <CTA />
     </div>
   );
 };
