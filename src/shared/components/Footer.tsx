@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="mb-200 flex w-full items-center justify-between gap-16 bg-[#f4f4f4] p-12">
+    <div className="flex w-full items-center justify-between gap-16 bg-[#f4f4f4] p-12">
       <div className="flex w-[40%] flex-col justify-between">
         <Image src="arkava.svg" alt="arkava logo" width={163} height={71} />
         <p className="w-[80%]">

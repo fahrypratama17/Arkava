@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const CTA = () => {
   return (
-    <section className="section bg-blue-550 flex min-h-screen flex-col items-center justify-center gap-12 rounded-[32px] p-20 text-center text-white">
+    <section className="bg-blue-550 my-20 flex min-h-screen flex-col items-center justify-center gap-12 rounded-[32px] p-20 text-center text-white">
       <h1 className="text-5xl font-bold">
         Setiap Developer Berawal dari Satu Langkah
       </h1>
