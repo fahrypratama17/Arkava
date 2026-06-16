@@ -10,7 +10,7 @@ import Link from "next/link";
 
 const Roadmap = () => {
   return (
-    <section className="section mx-auto min-h-screen w-[95%]">
+    <section className="section mx-auto min-h-screen">
       <div className="mx-auto flex w-[70%] flex-col gap-8 text-center">
         <p className="bg-blue-450 mx-auto w-full max-w-75 rounded-[80px] py-3 text-3xl font-bold shadow-xl">
           Roadmap
