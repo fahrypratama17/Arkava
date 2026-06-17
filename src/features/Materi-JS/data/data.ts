@@ -1,0 +1,123 @@
+export const jsTitle = [
+  {
+    id: 1,
+    title: "Kurikulum JavaScript",
+    desc: "Kuasai inti pemrograman web modern. Dari sintaks dasar hingga manipulasi DOM, asynchronous programming, dan pola JavaScript yang digunakan dalam aplikasi modern.",
+  },
+];
+
+export const jsCard = [
+  {
+    id: 1,
+    icon: "/css/pallete.svg",
+    title: "Fondasi CSS Modern",
+    desc: "Mempelajari dasar CSS untuk mengubah struktur menjadi tampilan menarik.",
+    benefit: [
+      "Cara menghubungkan CSS ke HTML",
+      "Sintaks dasar dan aturan CSS",
+      "Pewarisan dan prioritas style",
+    ],
+    className: "border-t-blue-550 border-t-4",
+    link: "",
+  },
+  {
+    id: 2,
+    icon: "/css/code.svg",
+    title: "Selektor & Targeting Elemen",
+    desc: "Menguasai berbagai selektor untuk mengatur elemen secara presisi.",
+    benefit: [
+      "Selektor dasar dan kombinasi",
+      "Class, ID, dan attribute selector",
+      "Specificity dan cascade",
+    ],
+    className: "border-t-blue-550 border-t-4",
+    link: "",
+  },
+  {
+    id: 3,
+    icon: "/css/box.svg",
+    title: "Memahami Box Model",
+    desc: "Memahami cara elemen menempati ruang dalam sebuah halaman.",
+    benefit: [
+      "Margin, border, dan padding",
+      "Width dan height",
+      "Box-sizing dan layout dasar",
+    ],
+    className: "border-t-blue-550 border-t-4",
+    link: "",
+  },
+  {
+    id: 4,
+    icon: "/css/layout.svg",
+    title: "Layout dengan Flexbox",
+    desc: "Membangun tata letak responsif menggunakan sistem satu dimensi.",
+    benefit: [
+      "Flex container dan flex item",
+      "Alignment dan distribusi ruang",
+      "Layout navigasi dan komponen modern",
+    ],
+    className: "border-t-blue-550 border-t-4",
+    link: "",
+  },
+  {
+    id: 5,
+    icon: "/css/grid.svg",
+    title: "Layout dengan Grid",
+    desc: "Menyusun layout dua dimensi yang rapi dan terstruktur.",
+    benefit: [
+      "Grid container dan grid item",
+      "Row, column, dan area",
+      "Dashboard dan layout kompleks",
+    ],
+    className: "border-t-blue-550 border-t-4",
+    link: "",
+  },
+  {
+    id: 6,
+    icon: "/css/mobile.svg",
+    title: "Desain Responsif",
+    desc: "Menciptakan tampilan yang optimal pada berbagai ukuran layar.",
+    benefit: [
+      "Media queries",
+      "Mobile-first design",
+      "Breakpoint dan layout adaptif",
+    ],
+    className: "border-t-blue-550 border-t-4",
+    link: "",
+  },
+  {
+    id: 7,
+    icon: "/css/start.svg",
+    title: "Animasi & Interaksi Visual",
+    desc: "Menambahkan gerakan halus untuk meningkatkan pengalaman pengguna.",
+    benefit: [
+      "CSS transitions",
+      "Keyframes dan animations",
+      "Efek hover dan micro-interactions",
+    ],
+    className: "border-t-blue-550 border-t-4",
+    link: "",
+  },
+  {
+    id: 8,
+    icon: "/css/variable.svg",
+    title: "CSS Variables",
+    desc: "Mengelola nilai desain secara konsisten dan mudah dipelihara.",
+    benefit: ["Custom properties", "Tema warna dinamis", "Dasar design system"],
+    className: "border-t-blue-550 border-t-4",
+    link: "",
+  },
+  {
+    id: 9,
+    icon: "/css/mouse.svg",
+    title: "Pseudo Class & Element",
+    desc: "Mengontrol state elemen dan menambahkan konten dekoratif dengan mudah.",
+    benefit: [
+      ":hover, :focus, dan state lainnya",
+      "::before dan ::after",
+      "Efek visual tanpa JavaScript",
+    ],
+    className: "border-t-blue-550 border-t-4",
+    link: "",
+  },
+];
