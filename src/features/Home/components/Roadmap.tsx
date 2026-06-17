@@ -36,7 +36,7 @@ const Roadmap = () => {
                   id % 2 === 0 ? "justify-end" : "justify-start"
                 }`}
               >
-                <div className="bg-blue-550 absolute left-1/2 z-10 mt-30 flex h-14 w-14 -translate-x-1/2 items-center justify-center rounded-full text-xl font-bold text-white">
+                <div className="bg-blue-550 absolute left-1/2 z-10 mt-40 flex h-14 w-14 -translate-x-1/2 items-center justify-center rounded-full text-xl font-bold text-white">
                   {id}
                 </div>
 
