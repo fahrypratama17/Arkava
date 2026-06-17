@@ -1,3 +1,5 @@
+"use client";
+
 import {
   Sidebar,
   SidebarContent,
@@ -11,8 +13,29 @@ import {
   SidebarMenuItem,
 } from "@/shared/components/ui/sidebar";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+
+const kategoriMateri = [
+  {
+    label: "HTML Fundamentals",
+    short: "HTML",
+    href: "/materi/html",
+  },
+  {
+    label: "Modern CSS",
+    short: "CSS",
+    href: "/materi/css",
+  },
+  {
+    label: "JavaScript Logic",
+    short: "JS",
+    href: "/materi/javascript",
+  },
+];
 
 export function SidebarMateri() {
+  const pathName = usePathname();
+
   return (
     <Sidebar>
       <SidebarHeader />
@@ -23,33 +46,23 @@ export function SidebarMateri() {
           </SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu className="flex flex-col gap-3 px-4">
-              <SidebarMenuItem>
-                <SidebarMenuButton asChild>
-                  <Link
-                    href=""
-                    className="hover:bg-blue-550 flex items-center gap-2"
-                  >
-                    <p className="w-6 text-[8px] font-bold">HTML</p>
-                    <p className="text-sm">HTML Fundamentals</p>
-                  </Link>
-                </SidebarMenuButton>
-              </SidebarMenuItem>
-              <SidebarMenuItem>
-                <SidebarMenuButton asChild>
-                  <Link href="" className="flex items-center gap-2">
-                    <p className="w-6 text-[8px] font-bold">CSS</p>
-                    <p className="text-sm">Modern CSS</p>
-                  </Link>
-                </SidebarMenuButton>
-              </SidebarMenuItem>
-              <SidebarMenuItem>
-                <SidebarMenuButton asChild>
-                  <Link href="" className="flex items-center gap-2">
-                    <p className="w-6 text-[8px] font-bold">JS</p>
-                    <p className="text-sm">JavaScript Logic</p>
-                  </Link>
-                </SidebarMenuButton>
-              </SidebarMenuItem>
+              {kategoriMateri.map(({ label, short, href }) => {
+                const isActive = pathName === href;
+
+                return (
+                  <SidebarMenuItem key={href}>
+                    <SidebarMenuButton asChild>
+                      <Link
+                        href={href}
+                        className={`${isActive ? "bg-blue-550 text-white" : ""} hover:bg-blue-550 flex items-center gap-2`}
+                      >
+                        <p className="w-6 text-[8px] font-bold">{short}</p>
+                        <p className="text-sm">{label}</p>
+                      </Link>
+                    </SidebarMenuButton>
+                  </SidebarMenuItem>
+                );
+              })}
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
