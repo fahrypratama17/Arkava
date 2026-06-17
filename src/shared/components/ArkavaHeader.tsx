@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ArkavaHeader = () => {
   return (
-    <div className="bg-white text-xl shadow-xl">
+    <div className="bg-white text-xl shadow-sm">
       <div className="mx-auto flex w-[95%] items-center justify-between">
         <Image
           src="/arkava.svg"

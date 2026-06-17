@@ -2,7 +2,9 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
-:root {
+@custom-variant dark (&:is(.dark *));
+
+@theme {
   --color-blue-450: #CAF0F8;
   --color-blue-550: #2563EB;
   --color-orange-550: #E34F26;
@@ -10,15 +12,7 @@
   --color-purple-550: #6D28D9;
 }
 
-@custom-variant dark (&:is(.dark *));
-
 @theme inline {
-  --color-blue-450: #CAF0F8;
-  --color-blue-550: #2563EB;
-  --color-orange-550: #E34F26;
-  --color-yellow-550: #F7DF1E;
-  --color-purple-550: #6D28D9;
-
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-sans);
