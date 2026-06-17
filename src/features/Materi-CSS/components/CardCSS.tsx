@@ -15,7 +15,7 @@ const CardHTML = () => {
       {cssCard.map(({ id, icon, title, desc, benefit, className, link }) => (
         <div key={id}>
           <Card
-            className={`w-full rounded-[32px] px-4 shadow-2xl ${className}`}
+            className={`h-full w-full rounded-[32px] px-4 shadow-2xl ${className}`}
             key={id}
           >
             <CardHeader>
