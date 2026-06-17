@@ -29,39 +29,24 @@ export function SidebarMateri() {
                     href=""
                     className="hover:bg-blue-550 flex items-center gap-2"
                   >
-                    <p
-                      className="w-5 text-[8px] font-bold"
-                      style={{ fontSize: "8px", width: "24px" }}
-                    >
-                      HTML
-                    </p>
-                    <p style={{ fontSize: "14px" }}>HTML Fundamentals</p>
+                    <p className="w-6 text-[8px] font-bold">HTML</p>
+                    <p className="text-sm">HTML Fundamentals</p>
                   </Link>
                 </SidebarMenuButton>
               </SidebarMenuItem>
               <SidebarMenuItem>
                 <SidebarMenuButton asChild>
                   <Link href="" className="flex items-center gap-2">
-                    <p
-                      className="w-5 text-[8px] font-bold"
-                      style={{ fontSize: "8px", width: "24px" }}
-                    >
-                      CSS
-                    </p>
-                    <p style={{ fontSize: "14px" }}>Modern CSS</p>
+                    <p className="w-6 text-[8px] font-bold">CSS</p>
+                    <p className="text-sm">Modern CSS</p>
                   </Link>
                 </SidebarMenuButton>
               </SidebarMenuItem>
               <SidebarMenuItem>
                 <SidebarMenuButton asChild>
                   <Link href="" className="flex items-center gap-2">
-                    <p
-                      className="font-bold"
-                      style={{ fontSize: "8px", width: "24px" }}
-                    >
-                      JS
-                    </p>
-                    <p style={{ fontSize: "14px" }}>JavaScript Logic</p>
+                    <p className="w-6 text-[8px] font-bold">JS</p>
+                    <p className="text-sm">JavaScript Logic</p>
                   </Link>
                 </SidebarMenuButton>
               </SidebarMenuItem>
@@ -103,23 +88,14 @@ export function SidebarMateri() {
           </SidebarGroupContent>
         </SidebarGroup>
         <SidebarGroup>
-          <SidebarGroupContent
-            style={{ borderRadius: "12px" }}
-            className="bg-blue-550 flex flex-col gap-3 rounded-[12px]! p-4"
-          >
-            <p
-              style={{ color: "#D3E0FB" }}
-              className="text-xs font-bold text-red-500 uppercase"
-            >
+          <SidebarGroupContent className="bg-blue-550 flex flex-col gap-3 rounded-[12px] p-4">
+            <p className="text-xs font-bold text-white/80 uppercase">
               Progress Belajar
             </p>
             <p className="text-3xl font-bold text-white uppercase">
               35% Selesai
             </p>
-            <div
-              style={{ background: "#03045E", margin: "4px 0 4px 0" }}
-              className="h-2 rounded-full"
-            >
+            <div className="my-1 h-2 rounded-full bg-[#03045E]">
               <div className="h-full w-[35%] rounded-full bg-white" />
             </div>
           </SidebarGroupContent>
