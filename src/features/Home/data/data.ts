@@ -9,8 +9,7 @@ export const cardData = [
       "SEO & Accessibility Basics",
       "Forms & Input Validation",
     ],
-    className: "border-t-orange-550 border-t-4",
-    link: "",
+    link: "/materi/html",
   },
   {
     id: 2,
@@ -22,8 +21,7 @@ export const cardData = [
       "Responsive Design & Media Queries",
       "CSS Variables & Animations",
     ],
-    className: "border-t-blue-550 border-t-4",
-    link: "",
+    link: "/materi/css",
   },
   {
     id: 3,
@@ -35,8 +33,7 @@ export const cardData = [
       "Asynchronous JS (Fetch, Async/Await)",
       "ES6+ Features & Functional Programming",
     ],
-    className: "border-t-yellow-550 border-t-4",
-    link: "",
+    link: "/materi/javascript",
   },
 ];
 
