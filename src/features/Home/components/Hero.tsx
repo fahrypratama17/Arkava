@@ -224,6 +224,7 @@ const Hero = () => {
 
   return (
     <section
+      id="home"
       ref={container}
       className="invisible relative grid min-h-screen grid-cols-1 items-center gap-16 py-24 lg:grid-cols-2 lg:gap-8"
     >

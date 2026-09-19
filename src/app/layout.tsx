@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${jakartaSans.variable} h-full antialiased`}>
+    <html lang="en" className={`${jakartaSans.variable} h-full scroll-smooth antialiased`}>
       <body className="flex min-h-full flex-col">{children}</body>
     </html>
   );

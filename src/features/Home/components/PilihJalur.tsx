@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const PilihJalur = () => {
   return (
-    <section className="section mx-auto mt-20 min-h-screen">
+    <section id="mengapa" className="section mx-auto mt-20 min-h-screen scroll-mt-28">
       <div className="mb-20 flex flex-col gap-8">
         <h1 className="text-center text-5xl font-bold">
           Mengapa Memilih <span className="text-blue-550">Jalur Arkava?</span>
