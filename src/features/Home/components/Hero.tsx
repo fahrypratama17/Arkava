@@ -5,10 +5,10 @@ const Hero = () => {
     <section className="grid min-h-screen grid-cols-2 items-center justify-center">
       <div className="space-y-8">
         <h1 className="text-5xl font-bold">
-          Kuasai Web Development{" "}
+          Bangun Karier Tech Impian:{" "}
           <span className="text-blue-550">
             <br />
-            dari Nol
+            Dari Baris Kode Pertama Hingga Siap Kerja
           </span>
         </h1>
         <p className="w-[90%] text-xl">

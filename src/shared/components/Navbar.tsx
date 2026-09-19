@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -9,16 +10,21 @@ const Navbar = () => {
           alt="logo"
           width={200}
           height={200}
-          className="h-auto w-20 md:w-50"
+          className="h-auto w-20 md:w-40"
         />
-        <div className="flex cursor-pointer items-center justify-between gap-12">
+        <div className="flex cursor-pointer items-center justify-between gap-12 text-base">
           <p>Home</p>
           <p>Roadmap</p>
           <p>Mengapa Arkava</p>
         </div>
-        <button className="flex w-full max-w-50 cursor-pointer items-center justify-end text-white">
-          <p className="bg-blue-550 w-[70%] rounded-[18px] py-3">Mulai</p>
-        </button>
+        <Link
+          href="/materi"
+          className="flex w-full max-w-50 cursor-pointer items-center justify-end text-white"
+        >
+          <span className="bg-blue-550 w-[50%] rounded-[18px] py-2 text-center text-base">
+            Mulai
+          </span>
+        </Link>
       </div>
     </div>
   );
