@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className="grid min-h-screen grid-cols-2 items-center justify-center">
       <div className="space-y-8">
-        <h1 className="text-5xl font-bold">
+        <h1 className="font-jakarta-700 text-5xl">
           Bangun Karier Tech Impian:{" "}
           <span className="text-blue-550">
             <br />

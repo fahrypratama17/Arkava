@@ -4,19 +4,10 @@
 
 @custom-variant dark (&:is(.dark *));
 
-@theme {
-  --color-blue-450: #CAF0F8;
-  --color-blue-550: #2563EB;
-  --color-orange-550: #E34F26;
-  --color-yellow-550: #F7DF1E;
-  --color-purple-550: #6D28D9;
-}
-
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-sans);
-  --font-mono: var(--font-geist-mono);
   --font-heading: var(--font-sans);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
@@ -57,6 +48,7 @@
 }
 
 :root {
+  --font-jakarta-sans: "Plus Jakarta Sans", sans-serif;
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
@@ -123,6 +115,78 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
+}
+
+@theme {
+  --color-blue-250: #ADC6FF;
+  --color-blue-350: #81AAFF;
+  --color-blue-450: #4D8EFF;
+  --color-blue-550: #2573E6;
+  --color-blue-650: #005AC2;
+  --color-blue-750: #004395;
+  --color-blue-850: #002E6A;
+  --color-blue-950: #001A42;
+  --color-purple-250: #DDB7FF;
+  --color-purple-350: #CA93FF;
+  --color-purple-450: #B76DFF;
+  --color-purple-550: #9E4BED;
+  --color-purple-650: #842BD2;
+  --color-purple-750: #6900B3;
+  --color-purple-850: #490080;
+  --color-purple-950: #2C0051;
+  --color-cyan-250: #4CD7F6;
+  --color-cyan-350: #1ABBD9;
+  --color-cyan-450: #009EB9;
+  --color-cyan-550: #008399;
+  --color-cyan-650: #00687A;
+  --color-cyan-750: #004E5C;
+  --color-cyan-850: #003640;
+  --color-cyan-950: #001F26;
+}
+
+@utility font-jakarta-100 {
+  font-family: var(--font-jakarta-sans), serif;
+  font-weight: 100;
+}
+
+@utility font-jakarta-200 {
+  font-family: var(--font-jakarta-sans), serif;
+  font-weight: 200;
+}
+
+@utility font-jakarta-300 {
+  font-family: var(--font-jakarta-sans), serif;
+  font-weight: 300;
+}
+
+@utility font-jakarta-400 {
+  font-family: var(--font-jakarta-sans), serif;
+  font-weight: 400;
+}
+
+@utility font-jakarta-500 {
+  font-family: var(--font-jakarta-sans), serif;
+  font-weight: 500;
+}
+
+@utility font-jakarta-600 {
+  font-family: var(--font-jakarta-sans), serif;
+  font-weight: 600;
+}
+
+@utility font-jakarta-700 {
+  font-family: var(--font-jakarta-sans), serif;
+  font-weight: 700;
+}
+
+@utility font-jakarta-800 {
+  font-family: var(--font-jakarta-sans), serif;
+  font-weight: 700;
+}
+
+@utility font-jakarta-900 {
+  font-family: var(--font-jakarta-sans), serif;
+  font-weight: 700;
 }
 
 @layer base {
