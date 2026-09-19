@@ -181,7 +181,6 @@ const Footer = () => {
         </button>
       </div>
 
-      {/* Teks brand besar */}
       <div
         aria-hidden
         className="ft-brand pointer-events-none mt-6 flex justify-center overflow-hidden select-none"
