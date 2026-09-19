@@ -58,7 +58,6 @@ const CTA = () => {
   return (
     <section ref={container} className="my-24">
       <div className="cta-box from-blue-750 via-blue-550 to-blue-650 border-blue-350/30 relative overflow-hidden rounded-[32px] border bg-linear-to-br px-6 py-20 text-center text-white shadow-[0_30px_80px_-20px_rgba(37,115,230,0.6)] md:px-20 md:py-28">
-        {/* Pola grid & cahaya */}
         <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.06)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.06)_1px,transparent_1px)] mask-[radial-gradient(ellipse_at_center,black_30%,transparent_75%)] bg-size-[40px_40px]" />
         <div className="bg-blue-250/30 pointer-events-none absolute -top-32 left-1/2 size-96 -translate-x-1/2 rounded-full blur-[100px]" />
 
