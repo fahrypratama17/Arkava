@@ -142,6 +142,9 @@
   --color-cyan-750: #004E5C;
   --color-cyan-850: #003640;
   --color-cyan-950: #001F26;
+  --color-black-950: #181B25;
+  --color-black-850: #2C303A;
+  --color-black-750: #434751;
 }
 
 @utility font-jakarta-100 {
@@ -194,7 +197,7 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-black-950 text-foreground;
   }
   html {
     @apply font-sans;
